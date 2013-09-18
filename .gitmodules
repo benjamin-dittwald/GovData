@@ -1,0 +1,42 @@
+[submodule "boxes-portlet"]
+	path = boxes-portlet
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-boxes-portlet
+[submodule "cache-scheduler"]
+	path = cache-scheduler
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-cache-scheduler
+[submodule "categories-grid-portlet"]
+	path = categories-grid-portlet
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-categories-grid-portlet
+[submodule "dataset-portlet"]
+	path = dataset-portlet
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-dataset-portlet
+[submodule "entities"]
+	path = entities
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-entities
+[submodule "errorpages-hook"]
+	path = errorpages-hook
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-errorpages-hook
+[submodule "manage-datasets-portlet"]
+	path = manage-datasets-portlet
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-manage-datasets-portlet
+[submodule "properties-hook"]
+	path = properties-hook
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-properties-hook
+[submodule "rss-servlet"]
+	path = rss-servlet
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-rss-servlet
+[submodule "screennamevalidator-hook"]
+	path = screennamevalidator-hook
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-screennamevalidator-hook
+[submodule "search-gui-portlet"]
+	path = search-gui-portlet
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-search-gui-portlet
+[submodule "govdata-theme"]
+	path = govdata-theme
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/govdata-theme
+[submodule "language-hook"]
+	path = language-hook
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-language-hook
+[submodule "opendataregistry-client"]
+	path = opendataregistry-client
+	url = git@gitlab.fokus.fraunhofer.de:opendataplatform/odp-opendataregistry-client
