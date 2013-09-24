@@ -57,5 +57,10 @@ language-hook: Dient der Internationalisierung von Texten.
 errorpages-hook: Zeigt angepasste Fehlerseiten an.
 
 
-Installation
-------------
+Links:
+------
+
+- Installation
+- Contributing
+- Blog
+- ckanext-spatial ogpd branch, ckanext-govdatade
