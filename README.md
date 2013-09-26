@@ -24,7 +24,7 @@ Grundsätzlich sind viele der Komponenten flexibel austauschbar. Ein typischer A
 
 Ein Apache httpd empfängt alle Anfragen per HTTPS. Statische Dateien wie Dumps und Logs werden sofort ausgeliefert. Normale Portalanfragen werden per Reverse Proxy an einen oder bei Hochverfügbarkeit mehrere Tomcat-Prozesse weitergeleitet. CKAN wird per WSGI ebenfall in einem Apache httpd ausgeführt und bedient die HTTP-REST-Anfragen der Liferay-Anwendungen und die API-Anfragen von außenn. Sowohl Liferay als auch CKAN greif per PostgrSQL-Client auf den Datenbank-Prozess zu.
 
-![Image](doc/simple-setup.svg?raw=true)
+![Image](./raw/doc/simple-setup.svg)
 
 Diese Architektur kann sowohl auf einer einzelnen Server-Maschine als auch in einer Microservice-Umgebung umgesetzt werden, da alle Prozesse per Netzwerk miteinander kommunizieren.
 
