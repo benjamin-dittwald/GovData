@@ -30,7 +30,7 @@ Diese Architektur kann sowohl auf einer einzelnen Server-Maschine als auch in ei
 
 Die einzelnen Java-Komponenten der Open Data Platform sind als Portlets umgesetzt, d.h. lose gekoppelt und können grundsätzlich auch einzeln eingesetzt werden. Zentrale Bibliothek ist der opendataregistry-client, der den Oberflächen-Portlets eine einfach Java-API bietet, sodass nicht jedes Portlet selbst direkt mit der REST-Schnittstelle von CKAN interagieren muss.
 
-![Portlets](https://gitlab.fokus.fraunhofer.de/opendataplatform/govdata-ui/raw/master/doc/portlets-architecture.svg)
+![Portlets](https://gitlab.fokus.fraunhofer.de/opendataplatform/govdata-ui/raw/master/doc/portlet-architecture.svg)
 
 opendataregistry-client: Zentrale Bibliothek, Java-API für CKAN.
 
