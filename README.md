@@ -1,7 +1,7 @@
 Dokumentation
 =============
 
-Die Open Data Platform integriert verschiedene Komponenten zu einer vollständigen Portallösung für offene Daten. Insbesondere bindet sie die Metadaten-Katalogsoftware CKAN (todo Link) in eine JavaEE-Server-Umgebung ein.
+Die Open Data Platform integriert verschiedene Komponenten zu einer vollständigen Portallösung für offene Daten. Insbesondere bindet sie die Metadaten-Katalogsoftware [CKAN](http://ckan.org) in eine JavaEE-Server-Umgebung ein.
 
 
 Komponenten
