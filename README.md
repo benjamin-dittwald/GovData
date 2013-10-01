@@ -32,35 +32,41 @@ Die einzelnen Java-Komponenten der Open Data Platform sind als Portlets umgesetz
 
 ![Portlets](https://gitlab.fokus.fraunhofer.de/opendataplatform/govdata-ui/raw/master/doc/portlet-architecture.svg)
 
-opendataregistry-client: Zentrale Bibliothek, Java-API für CKAN.
+[opendataregistry-client](../../opendataregistry-client): Zentrale Bibliothek, Java-API für CKAN.
 
-categories-grid-portlet: Zeigt die Kategorien mit Pikogrammen und Anzahl der Datensätze an (Startseite)
-boxes-portlet: Zeigt neuste Datensätze, Dokumente und Apps (Startseite)
-cache-scheduler: Hält die zwischengespeicherten Inhalte von categories-grid-portlet und boxes-portlet aktuell.
+[categories-grid-portlet](../../categories-grid-portlet): Zeigt die Kategorien mit Pikogrammen und Anzahl der Datensätze an (Startseite)
 
-search-gui-portlet: Zeigt die Suchmaske an und leitet die Anfrage per IPC an das dataset-portlet weiter.
+[boxes-portlet](../../boxes-portlet): Zeigt neuste Datensätze, Dokumente und Apps (Startseite)
 
-dataset-portlet: Zeigt die Suchergebnis-Liste mit Filtern und die Datensatzdetailseite an, die es per opendataregistry-client von CKAN holt.
+[cache-scheduler](../../cache-scheduler): Hält die zwischengespeicherten Inhalte von categories-grid-portlet und boxes-portlet aktuell.
 
-manage-datasets-portlet: Erlaubt das erstellen und pflegen von Metadaten per Formular und opendataregistry-client.
+[search-gui-portlet](../../search-gui-portlet): Zeigt die Suchmaske an und leitet die Anfrage per IPC an das dataset-portlet weiter.
 
-entities: Ermöglichst das persistieren von Kommentaren zu Datensätzen durch JPA.
+[dataset-portlet](../../dataset-portlet): Zeigt die Suchergebnis-Liste mit Filtern und die Datensatzdetailseite an, die es per opendataregistry-client von CKAN holt.
 
-[govdata-theme](../../../govdata-theme): Oberflächengestaltung
+[manage-datasets-portlet](../../manage-datasets-portlet): Erlaubt das erstellen und pflegen von Metadaten per Formular und opendataregistry-client.
 
-rss-servlet: Betten den CKAN-RSS-Feed ins Portal ein.
+[entities](../../entities): Ermöglichst das persistieren von Kommentaren zu Datensätzen durch JPA.
 
-screennamevalidator-hook: Stellt sicher, dass in Liferay erzeugte Benutzernamen auch in CKAN valide sind.
+[govdata-theme](../../govdata-theme): Oberflächengestaltung
 
-language-hook: Dient der Internationalisierung von Texten.
+[rss-servlet](../../rss-servlet): Betten den CKAN-RSS-Feed ins Portal ein.
 
-errorpages-hook: Zeigt angepasste Fehlerseiten an.
+[screennamevalidator-hook](../../screennamevalidator-hook): Stellt sicher, dass in Liferay erzeugte Benutzernamen auch in CKAN valide sind.
+
+[language-hook](../../language-hook): Dient der Internationalisierung von Texten.
+
+[errorpages-hook](../../errorpages-hook): Zeigt angepasste Fehlerseiten an.
 
 
 Links:
 ------
 
-- [Installation](./INSTALL.md)
-- Contributing
-- Blog
-- ckanext-spatial ogpd branch, ckanext-govdatade
+- [Installing ODP](./master/INSTALL.md)
+- [Contributing to ODP](./master/CONTRIBUTING.md)
+- [Open data metadata structure for Germany](https://github.com/fraunhoferfokus/ogd-metadata)
+- Relevant CKAN plugins
+  - [harvesting extension used at govdata.de](https://github.com/fraunhoferfokus/ckanext-govdatade)
+  - [harvesting extension for CSW/ISO19115 geo metadata servers](https://github.com/fraunhoferfokus/ckanext-spatial/tree/ogpd)
+- [Fraunhofer FOKUS Open Data Blog](http://open-data.fokus.fraunhofer.de), esp. [on the architecture](http://open-data.fokus.fraunhofer.de/?p=1154&lang=en), 
+[on the metadata structure](http://open-data.fokus.fraunhofer.de/?p=643&lang=en), [on harvesting](http://open-data.fokus.fraunhofer.de/?p=2418&lang=en)
