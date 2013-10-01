@@ -32,7 +32,7 @@ Die einzelnen Java-Komponenten der Open Data Platform sind als Portlets umgesetz
 
 ![Portlets](https://gitlab.fokus.fraunhofer.de/opendataplatform/govdata-ui/raw/master/doc/portlet-architecture.svg)
 
-[opendataregistry-client](../../opendataregistry-client): Zentrale Bibliothek, Java-API für CKAN.
+[opendataregistry-client](../../odp-opendataregistry-client): Zentrale Bibliothek, Java-API für CKAN.
 
 [categories-grid-portlet](../../odp-categories-grid-portlet): Zeigt die Kategorien mit Pikogrammen und Anzahl der Datensätze an (Startseite)
 
