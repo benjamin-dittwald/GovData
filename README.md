@@ -60,7 +60,7 @@ errorpages-hook: Zeigt angepasste Fehlerseiten an.
 Links:
 ------
 
-- [Installation](INSTALL.md)
+- [Installation](./INSTALL.md)
 - Contributing
 - Blog
 - ckanext-spatial ogpd branch, ckanext-govdatade
