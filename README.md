@@ -62,7 +62,7 @@ Die einzelnen Java-Komponenten der Open Data Platform sind als Portlets umgesetz
 Links:
 ------
 
-- [Installing ODP](./blob/master/INSTALL.md)
+- [Installing ODP](./INSTALL.md)
 - [Contributing to ODP](./blob/master/CONTRIBUTING.md)
 - [Open data metadata structure for Germany](https://github.com/fraunhoferfokus/ogd-metadata)
 - Relevant CKAN plugins
