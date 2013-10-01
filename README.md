@@ -46,7 +46,7 @@ manage-datasets-portlet: Erlaubt das erstellen und pflegen von Metadaten per For
 
 entities: Ermöglichst das persistieren von Kommentaren zu Datensätzen durch JPA.
 
-ogpd-theme: Oberflächengestaltung
+[govdata-theme](../../../govdata-theme): Oberflächengestaltung
 
 rss-servlet: Betten den CKAN-RSS-Feed ins Portal ein.
 
@@ -60,7 +60,7 @@ errorpages-hook: Zeigt angepasste Fehlerseiten an.
 Links:
 ------
 
-- Installation
+- [Installation](INSTALL.md)
 - Contributing
 - Blog
 - ckanext-spatial ogpd branch, ckanext-govdatade
