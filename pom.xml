@@ -199,11 +199,11 @@
 		</dependencies>
 	</dependencyManagement>
 	<repositories>
-		<repository>
-			<id>prime-repo</id>
-			<name>Prime Repo</name>
-			<url>http://repository.primefaces.org</url>
-		</repository>
+<!-- 		<repository> -->
+<!-- 			<id>prime-repo</id> -->
+<!-- 			<name>Prime Repo</name> -->
+<!-- 			<url>http://repository.primefaces.org</url> -->
+<!-- 		</repository> -->
 		<repository>
 			<id>maven2-repository.dev.java.net</id>
 			<name>Java.net Repository for Maven</name>
