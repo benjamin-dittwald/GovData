@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 .settings
 .project
 target
 
+=======
+.classpath
+.project
+.settings
+target
+build
+
+/target
+/target
+>>>>>>> d081ddf76c37fc8acf9c1f3efa199e2af0f4ea68
