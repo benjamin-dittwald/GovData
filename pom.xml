@@ -9,7 +9,7 @@
 		<developerConnection>scm:git:git://gitlab.fokus.fraunhofer.de:govdata-ui</developerConnection>
 	</scm>
 	<properties>
-		<liferay.version>6.1.2</liferay.version>
+		<liferay.version>6.1.1</liferay.version>
 		<liferay.faces.version>3.1.1-ga2</liferay.faces.version>
 		<liferay.deploy.dir>/opt/liferay-portal-6.1.1-ce-ga2/deploy</liferay.deploy.dir>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
