@@ -2,7 +2,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>Layout20-80-layouttpl</groupId>
   <artifactId>Layout20-80-layouttpl</artifactId>
-  <version>1.1.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Layout20-80-layouttpl</name>
   <description>Govdata Layout20-80-layouttpl is for Bibliothek layout</description>
@@ -26,4 +25,12 @@
       </plugin>
     </plugins>
   </build>
+  <parent>
+  	<groupId>de.fhg.fokus.odp</groupId>
+  	<artifactId>od-platform</artifactId>
+  	<version>1.1.0-SNAPSHOT</version>
+  </parent>
+  <scm>
+  	<developerConnection>scm:git:git@gitlab.fokus.fraunhofer.de:opendataplatform/layout20-80-layouttpl.git</developerConnection>
+  </scm>
 </project>
