@@ -182,6 +182,7 @@
 		<module>categories-grid-portlet</module>
 		<module>cache-scheduler</module>
 		<module>errorpages-hook</module>
+		<module>Layout20-80-layouttpl</module>
 	</modules>
 	<distributionManagement>
 		<site>
