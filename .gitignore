@@ -5,5 +5,4 @@ target
 build
 .DS_Store
 .idea
-od-platform.iml
 *.iml
